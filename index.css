@@ -1,0 +1,152 @@
+body {
+    padding: 0 250px;
+}
+
+.header {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 5px;
+    border-bottom: 1px solid black;
+}
+
+.header > div {
+    margin: 32px 0;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    /*font-weight: bold; on click */
+}
+
+#name {
+    font-family: Roboto, sans-serif;
+    font-size: 47px;
+}
+
+#occupation {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+
+.main {
+    align-items: flex-end;
+    justify-content: space-between;
+    display: flex;
+    vertical-align: baseline;
+    margin-top: 10px;
+}
+
+#year {
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    font-size: 16px;
+
+}
+
+.photo {
+    margin-top: 20px;
+    background-color: #c1beb7;
+}
+
+#myself {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.about {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    margin-top: 10px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-color: #F6F6F6;
+}
+
+#p1, #p2 {
+    font-size: 42px;
+    text-align: center;
+}
+
+#p3 {
+    text-align: center;
+}
+
+.skills {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    margin-top: 0px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    text-align: block;
+}
+
+
+
+
+
+
+.skllsdescription > div > img {
+    width: 100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.skllsdescription {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.starsinside > img {
+    width: 21px;
+}
+
+.portfolio {
+    background-color: #F6F6F6;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    font-family: Roboto, sans-serif;
+    font-size: 42px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.portfolio > p {
+    font-size: 18px;
+}
+
+.portfolio > img {
+    width: 40%;
+}
+
+
+.contacts {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    font-family: Roboto, sans-serif;
+    font-size: 42px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contacts > p {
+    font-size: 18px;
+}
+
+.contacts > a > img {
+    width: 100px;
+}
+
+
+.footer {
+    margin-top: 100px;
+}
+
