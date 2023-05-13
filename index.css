@@ -202,5 +202,7 @@
     .header > ul {
         flex-wrap: wrap;
     }
-
+    .skllsdescription {
+        flex-wrap: wrap;
+    }
 }
